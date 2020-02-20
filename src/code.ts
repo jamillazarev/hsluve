@@ -9,8 +9,29 @@ function checkWidth(selec) {
 }
 
 function getSelc() {
-  if (figma.currentPage.selection && figma.currentPage.selection[0] && figma.currentPage.selection[0].type !== "GROUP") {
-    return figma.currentPage.selection[0]
+  if (figma.currentPage.selection) {
+    const s = figma.currentPage.selection;
+    const sg = s.filter(s => s.type == "GROUP");
+
+    if (sg.length > 0) {
+      figma.notify(`🌝 Groups are not supported`, {timeout: 1500})
+    }
+
+    if (sg.length != s.length) {
+      if (s.length > 1) {
+        loop:
+        for (const i in s) {
+          if (s[i].type !== "GROUP") {
+            return s[i]
+            break loop;
+          }
+        }
+      } else {
+        return s[0]
+      }
+    } else {
+      return ""
+    }
   } else {
     return ""
   }
