@@ -261,7 +261,7 @@
         this.removeActive();
       },
       copy() {
-        copy(this.hex)
+        copy(this.hex.toUpperCase())
         parent.postMessage(
                 { pluginMessage: { type: "copy", str: this.hex } },
                 "*"
