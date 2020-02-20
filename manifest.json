@@ -1,0 +1,7 @@
+{
+  "name": "HSLuve",
+  "id": "811341846366740536",
+  "api": "1.0.0",
+  "main": "build/main.js",
+  "ui": "build/ui.html"
+}
