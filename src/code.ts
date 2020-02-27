@@ -2,9 +2,9 @@ figma.showUI(__html__, { width: 400, height: 578 });
 
 function checkWidth(selec) {
   if (selec) {
-    figma.ui.resize(516, 578)
+    figma.ui.resize(436, 472)
   } else {
-    figma.ui.resize(400, 578)
+    figma.ui.resize(320, 472)
   }
 }
 
