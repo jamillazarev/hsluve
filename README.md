@@ -2,6 +2,8 @@
 
 Figma plugin. For those who luve using HSLuv.
 
+Install: https://www.figma.com/community/plugin/811341846366740536/HSLuve
+
 HSLuv is a human-friendly alternative to HSL.
 Original idea, JavaScript implementation – Alexei Boronine.
 
