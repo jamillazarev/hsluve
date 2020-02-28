@@ -4,10 +4,6 @@
       <div id="display">
         <canvas style="position:absolute;left:0" height="400" width="400"></canvas>
         <svg style="position:absolute;left:0" height="400" width="400">
-          <circle cx="200" cy="200" fill="none" stroke-width="2" stroke="#ffffff" r="44.52288917362272"></circle>
-          <circle cx="200" cy="200" r="2" fill="#ffffff"></circle>
-          <circle cx="200" cy="200" r="190" fill="none" stroke="white" stroke-width="1"></circle>
-          <circle cx="355.50006334855993" cy="200" r="4" fill="none" stroke-width="2" stroke="#ffffff" style="display: inline;"></circle>
         </svg>
       </div>
       <table>
@@ -345,7 +341,7 @@
 </script>
 
 <style>
-  body,input,select,textarea{background:0;border-radius:0;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:13px;margin:0;padding:0}input::selection{background:#989898}body{background-color:#222}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}input[type=number]{-moz-appearance:textfield}div.demo div{color:#fff;height:2em;line-height:2em;padding-left:.3em;padding-right:.3em}#display{position:relative;width:400px;height:400px}#picker{width:400px; position: absolute; top: 0; left: 0;}#picker td.cell-input{width:68px;padding-right:4px}#picker td.cell-input input{margin:0;height:24px;background:0 0;color:#b7b7b7;outline:0;border:1px solid #333;border-radius:0;text-align:right;width:100%;padding:0 5px}#picker td.cell-input.cell-input-hex input{font-family:monospace;border-color:#333;height:40px}#picker table{width:96%;margin:0 2%}#picker table td{padding:2px 2px;vertical-align:top;border:none}#picker table td.picker-label{color:#b7b7b7;width:1px;line-height:24px;user-select:none}#picker table .swatch{height:40px;cursor:pointer;box-sizing:border-box}#picker table .swatch:active{border:1px solid #fff;transition:.02s}.range-slider{height:24px;display:block;position:relative}.range-slider-handle{display:inline-block;position:absolute;width:6px;top:-2px;left:-5px;height:100%;cursor:default;border:2px solid #fff;touch-action:pan-y;-ms-touch-action:pan-y}
+  body,input,select,textarea{background:0;border-radius:0;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-size:13px;margin:0;padding:0}input::selection{background:#989898}body{background-color:#222}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}input[type=number]{-moz-appearance:textfield}div.demo div{color:#fff;height:2em;line-height:2em;padding-left:.3em;padding-right:.3em}#display{position:relative;width:400px;height:400px}#picker{width:400px; position: absolute; top: 0; left: 0;}#picker td.cell-input{width:70px;padding-right:4px}#picker td.cell-input input{margin:0;height:24px;background:0 0;color:#b7b7b7;outline:0;border:1px solid #333;border-radius:0;text-align:right;width:100%;padding:0 5px}#picker td.cell-input.cell-input-hex input{font-family:monospace;border-color:#333;height:40px}#picker table{width:96%;margin:0 2%}#picker table td{padding:2px 2px;vertical-align:top;border:none}#picker table td.picker-label{color:#b7b7b7;width:1px;line-height:24px;user-select:none}#picker table .swatch{height:40px;cursor:pointer;box-sizing:border-box}#picker table .swatch:active{border:1px solid #fff;transition:.02s}.range-slider{height:24px;display:block;position:relative}.range-slider-handle{display:inline-block;position:absolute;width:6px;top:-2px;left:-5px;height:100%;cursor:default;border:2px solid #fff;touch-action:pan-y;-ms-touch-action:pan-y}
 
   #picker {
     width: 320px;
