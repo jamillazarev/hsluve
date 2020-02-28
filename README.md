@@ -8,7 +8,7 @@ HSLuv is a human-friendly alternative to HSL.
 Original idea, JavaScript implementation – Alexei Boronine.
 For more information: https://www.hsluv.org/
 
-![artwork.png](https://i.imgur.com/j0yNHuD.png)
+![artwork.png](https://i.imgur.com/wwirnxm.png)
 
 ## Usage
 
